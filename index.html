@@ -73,16 +73,17 @@
 			padding: 10px;
 		}
 		.image {
-			flex-grow: 0;
+			display: inline-flex;
+			justify-content: center;
 			padding: 10px;
 		}
 		.left {
 			float: left;
-			width: 90%;
+			width: 80%;
 		}
 		.right {
 			float: right;
-			width: 10%;
+			width: 15%;
 		}
 		.size {
 			font-size: 30px;
@@ -116,37 +117,47 @@
 		<img src="https://t3.ftcdn.net/jpg/03/14/84/68/360_F_314846831_5jJsC7Us9obgwMjRDqFhs04dodzvnZvi.jpg" alt="cart" class="recom">
 	</div>
 	<div class="float">
-		<div class="container left">
-			<div>
-				<p class="deal size">
-					50% Off Deal
-				</p>
+		<div class="container left" style="background-color: lightgreen; margin: 25px;">
+			<div style="width: 50%; display: flex; align-items: center; padding: 50px;">
+				<div>
+					<h3>Biggest Offer Revealed</h4>
+					<h1>MORE DEALS INSIDE <br>
+						UP TO 50% OFF
+					</h2>
+					<h5>Wishlist Now >></h5>
+				</div>
 			</div>
-			<div class="image">
+			<div class="image" style="width:50%">
 				<img src="https://fxposed.co.uk/Images/No%20Watermark/PVC%20Shoes/A2242H/A2242H-TAN/IMG_2739.JPG" class="picsize shadow">
 			</div>
 		</div>
-		<div class="right">
-			<h3 class="text">
-			Recently Viewed
-			</h3>
-			<img src="https://marksandspencer.com.ph/cdn/shop/products/SD_01_T01_1026C_Y0_X_EC_90.jpg?v=1673598246" class="pic shadow">
-			<h6 class="fontsize">
-				Faux Leather Tote Bag
-			</h6>
-			<h3 class="text">
-			Suggestions For You
-			</h3>
-			<img src="https://img.ws.mms.shopee.ph/c438d37d10b96dd28d0baac00fede011" class="pic shadow">
-			<h6 class="fontsize">
-				Demon Slayer Katana
-			</h6>
+		<div class="right" style="display: inline-flex; justify-content: center;">
+			<div>
+				<h3>
+					Recently Viewed
+				</h3>
+				<div>
+					<img src="https://marksandspencer.com.ph/cdn/shop/products/SD_01_T01_1026C_Y0_X_EC_90.jpg?v=1673598246" class="pic shadow">
+					<h6 class="fontsize">
+						Faux Leather Tote Bag
+					</h6>
+				</div>
+				<h3>
+					Suggestions For You
+				</h3>
+				<div>
+					<img src="https://img.ws.mms.shopee.ph/c438d37d10b96dd28d0baac00fede011" class="pic shadow">
+					<h6 class="fontsize">
+						Demon Slayer Katana
+					</h6>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div style="clear: both;">
 		
 	</div>
-	<h4 id="color">
+	<h4 id="color" style="padding-left: 40px;">
 			RECOMMENDED FOR YOU
 	</h4>
 	<div class="center">
