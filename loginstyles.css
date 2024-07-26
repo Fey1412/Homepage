@@ -1,0 +1,44 @@
+.bcolor {
+	background-color: whitesmoke;
+	height: 100%;
+	width: 100%;
+}
+.width {
+	width: 50%;
+	justify-content: center;
+	align-items: ;
+}
+.container {
+	display: flex;
+	
+}
+.one {
+
+}
+.email {
+	background-color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+.fcolor {
+	color: dodgerblue;
+	font-family: sans-serif;
+	padding-left: 85px;
+	font-size: 50px;
+	padding-top: 20px;
+	line-height: 0;
+}
+
+.font {
+	font-family: arial;
+	padding-left: 85px;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.login {
+	color: white;
+	background-color: dodgerblue;
+}
+.fsize {
+	font-size: 20px;
+}
